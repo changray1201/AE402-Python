@@ -1,0 +1,6 @@
+doca = open('123.jpg',"rb")
+pic = doca.read()
+docb = open('複製.jpg',"wb")
+docb.write(pic)
+doca.close()
+docb.close()
